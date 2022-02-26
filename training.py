@@ -31,7 +31,7 @@ env = environment.Environment(optimal_temperature=(18.0, 24.0), initial_month=0,
 brain = brain.Brain(learning_rate=0.00001, number_actions=number_actions)
 
 # BUILDING THE DQN MODEL BY SIMPLY CREATING AN OBJECT OF THE DQN CLASS
-dqn = dqn.DDQN(max_memory=max_memory, discount=0.9)
+dqn = dqn.DQN(max_memory=max_memory, discount=0.9)
 
 # CHOOSING THE MODE
 train = True
