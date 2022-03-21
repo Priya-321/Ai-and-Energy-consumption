@@ -1,9 +1,6 @@
 # Implementing Deep Q-Learning with Experience Replay
 
-# Importing the libraries
 import numpy as np
-
-# IMPLEMENTING DEEP Q-LEARNING WITH EXPERIENCE REPLAY
 
 class DQN(object):
     
