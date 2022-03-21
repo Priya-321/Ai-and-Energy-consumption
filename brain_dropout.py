@@ -1,11 +1,8 @@
 # Building the Brain
 
-# Importing the libraries
 from keras.layers import Input, Dense, Dropout
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam
-
-# BUILDING THE BRAIN
 
 class Brain(object):
     
